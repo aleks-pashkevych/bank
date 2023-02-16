@@ -1,0 +1,55 @@
+.billing{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 260px;
+  margin-bottom: 100px;
+  // gap:200px;
+  &__img{
+    display: flex;
+    justify-content: space-between;
+    &-left{
+      justify-content: flex-end;
+    }
+    &-right{
+      margin-left: -140px;
+      margin-top: -160px;
+      &-bottom{
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 140px;
+      }
+    }
+  }
+  &__checkmark-wrapper{
+    color: #080915;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: .01em;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:4%;
+  }
+  &__headtext{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 160%;
+    letter-spacing: .01em;
+    margin-top: -100px;
+  }
+  &__description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing:.01em;
+    opacity: .7;
+  }
+  &__app-links{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap:4%;
+  }
+}

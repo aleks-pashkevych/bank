@@ -1,0 +1,37 @@
+.try{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+
+  border: 1px solid #FFF;
+  background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+  backdrop-filter: blur(5px);
+  border-radius:20px;
+  padding-bottom: 40px;
+  opacity: .7;
+  &:hover{
+    opacity: 1;
+  }
+  // transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-bottom: 80px;
+  &__left{
+    width:60%;
+  }
+  &__right{
+    margin-right: 6%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  &__head{
+    font-size: 48px;
+    line-height: 140%;
+  }
+  &__description{
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: .01em;
+    opacity: .7;
+    margin-right: 26%;
+  }
+}

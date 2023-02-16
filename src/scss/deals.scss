@@ -1,0 +1,26 @@
+.deals{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // gap:14%;
+  &__right{
+    background-image:"@img/bglayer.jpg";
+    background-repeat: no-repeat;
+    background-position: center;
+    &-top{
+      display: flex;
+      align-items:center;
+      justify-content: space-between;
+      gap:14%;
+    }
+    &-bottom{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      margin-top: 40px;
+    }
+  }
+  
+}

@@ -1,0 +1,50 @@
+.saying{
+  margin-bottom: 50px;
+  &__up{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    gap:10%;
+    p{
+      padding-right: 10%;
+      margin-right: 10%;
+    }
+  }
+  &__down{
+    margin-top: 50px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    // gap:40px;
+  }
+  &__description{
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: .02em;
+    padding-bottom: 20px;
+  }
+  &__user{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:12%;
+    &-name{
+      font-size: 20px;
+      line-height: 32px;
+    }
+    &-about{
+      font-size: 16px;
+      line-height: 24px;
+      opacity: .5;
+      margin-top: -24px;
+    }
+  }
+  &__photo{
+    img{
+      width:48px;
+      height: 48px;
+    }
+  }
+}

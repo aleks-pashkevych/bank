@@ -1,0 +1,19 @@
+@import"discount.scss";
+@import "method.scss";
+@import "users.scss";
+@import "business.scss";
+@import "billing.scss";
+@import "deals.scss";
+@import "saying.scss";
+@import "contributors.scss";
+@import "try.scss";
+.main{
+  flex:1;
+  
+  &__content{
+    max-width: 1170px;
+    margin: 0 auto;
+    min-height: 70vh;
+    flex:1;
+}
+}
