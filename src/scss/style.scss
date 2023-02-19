@@ -1,14 +1,18 @@
 @import 'https://necolas.github.io/normalize.css/latest/normalize.css';
 // @import 'header-desktop.scss' screen and (min-width:767px);
-@import "main-part.scss";
-@import "footer.scss";
+// @import "main-part.scss";
+
 
 @media screen and (min-width:767px){
   @import 'header-desktop.scss';
+  @import "main-part.scss";
+  @import "footer.scss";
 }
 
 @media screen and (max-width:766px){
   @import "header-mobile.scss";
+  @import "main-part-mobile.scss";
+  @import "footer-mobile.scss";
 }
 body{
   background-color: #00040F;
@@ -37,12 +41,13 @@ a:hover{
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
 .footer{
   min-height: 100px;
   width:100%;
   justify-self: end;
-  align-self: flex-end;
+  // align-self: flex-end;
 }
 .on-move{
   border-radius:20px;
@@ -62,9 +67,3 @@ a:hover{
     padding: 0 auto;
   }
 }
-// h1{
-//   color: royalblue;
-//   text-align: center;
-//   margin-top: 30px;
-//   font-size: 50px;
-// }
