@@ -1,7 +1,7 @@
 "use strict";
 const column = document.querySelectorAll(".emphasize");
 const btn = document.querySelectorAll(".business__btn");
-
+// TODO: body onClick close footer menu!
 const burgerMenuIcon = document.querySelector(".header__burger");
 const closeIcon = document.querySelector(".burger__close");
 const burgerIcon = document.querySelector(".burger__icon");
