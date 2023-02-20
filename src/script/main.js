@@ -67,10 +67,8 @@ if (burgerMenuIcon) {
 
 if (footerMenu) {
   const menuItems = document.querySelectorAll(".footer__column-menu");
-  // console.log(footerMenu, menuItems);
   let menuOpen = false;
   for (let i = 0; i < footerMenu.length; i++) {
-    console.log(footerMenu[i]);
     footerMenu[i].onclick = () => {
       if (menuOpen == false) {
         menuItems[i].classList.remove("hide");
